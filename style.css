@@ -1,0 +1,1354 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*---------Início---------*/
+
+.section-1-bg{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+    .icon-menu img{
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+        margin-top: 15px;
+
+}
+
+
+    #menu-bar{
+        background: #2500aa;
+        height: 100vh;
+        width: 0px;
+        transition: 0.3s all;
+
+}
+
+    #menu-bar ul li{
+        list-style: none;
+        padding: 15px;
+        
+}
+
+    #menu-bar ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        width: 100%;
+
+}
+
+    #menu-bar ul li a:hover{
+        border: solid 1px #c229aa;
+        padding: 8px;
+        border-radius: 15px;
+        background: #7601c4;
+
+}
+
+    .C-icon{
+
+        margin-top: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        overflow: hidden;
+
+}
+
+    .C-icon span{
+        color: #FBF7F7
+
+}
+
+    .C-icon span:hover{
+        transition: 0.2s;
+        transform: 0.5s;
+        color: #c229aa
+    
+}
+
+    .main-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20%;
+        flex-wrap: wrap;
+
+}
+
+    .main-title h1{
+        font-size: 70px;
+        color: rgb(9, 33, 248);
+        margin-top: 15%;
+        font-family: "Poppins";
+        font-weight: bold;
+        letter-spacing: 2px;
+
+}
+
+    .main-title h2{
+        color: #0066fe;
+        font-size: 50px;
+        font-family: "Hanuman";
+        font-weight: bold;
+        letter-spacing: 2px;
+
+}
+
+    .main-title h5{
+        color: rgb(18, 0, 177);
+        font-size: 15px;
+        font-family: "Hanuman";
+        letter-spacing: 2px;
+        font-weight: 200;
+
+}
+
+    .main-title button{
+        width: 15%;
+        margin-top: 80px;
+        padding: 8px 5px;
+        font-size: 20px;
+        background-color: #0044fe;
+        border: none;
+        border-radius: 50px;
+        color: #ffffff;
+        font-family:"Inria Sans" ;
+        cursor: pointer;
+        transition-duration: .9s;  
+
+}
+
+    .main-title button:hover{
+        border: solid 1px rgb(48, 73, 107);
+        transition: 0.7s;
+        background: transparent;
+        color: #010029;
+        font-family: "Inria Sans";
+
+}
+
+    .Números{
+        display: flex;
+        margin-top: 35px;
+        color: rgb(47, 84, 204);
+        gap: 40px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .Números :hover{
+        display: flexbox;
+        margin-top: 35px;
+        color: rgb(119, 188, 252);
+        gap: 40px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .title h3{
+        font-size: 35px;
+        margin-top: 15px;
+        font-family: "Inter";
+        font-weight: bold;
+    }
+    
+    .title p{
+        font-family: "Inter";
+        font-weight: normal;
+    }
+    
+    .title:hover{
+        transition: 1.2;
+        transform: scale(1.1);
+       
+    }
+    
+    @media only screen and (max-width: 414px)  {
+    
+        /*====================Inicio====================*/
+    
+        .main-title h1{
+            font-size: 40px;
+            margin-top: 75%;
+            margin-right: 15%;
+            
+        }
+    
+        .main-title h2{
+            font-size: 25px;
+            margin-right: 15%;
+        }
+        
+        .main-title button{
+            width: 150px;
+        }
+    
+        .Numeros{
+            margin-right: 25%;
+            margin-top: 50%;
+        }
+    
+    
+    }
+    
+    /*================Sobre-mim================*/
+    
+    
+    .C-sobre{
+        display: flex;
+        justify-content: space-around;
+        padding: 150px 0px;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    
+    }
+    
+    .image img{
+        width: 400px;
+        height: auto;
+        box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    }
+    
+    
+    .Sobre-mim h1{
+    
+         text-align: center;
+        font-size: 55px;
+        font-family: "Inter";
+        font-weight: bold;
+    }
+    
+    .Sobre-mim h4{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: normal;
+        font-family: "Inria Sans";
+        font-weight: bold;
+    }
+    
+    .Sobre-mim span{
+        color: #0b6cfd;
+    }
+    
+    .Sobre-mim p{
+        margin-top: 25px;
+        font-family: "Inria Sans";
+    
+    }
+    
+    .Sobre-mim button{
+        background-color: #0804ef;
+        margin-left: 35%;
+        margin-top: 30px;
+        padding: 10px 50px;
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+        transition-duration: .9s;
+    
+    }
+    
+    .Sobre-mim button:hover{
+        color: #0408ef;
+        transform: translate(0.9);
+        transition: 0.8s;
+        background: transparent;
+        
+    }
+    
+    @media only screen and (max-width: 414px){
+    
+        /*================Sobre-mim ================*/
+    
+        .image img{
+            width: 350px;
+            height: auto;
+        }
+    
+    
+    
+        .Sobre-mim p{
+            font-size: 12px;
+            width: 500px;
+            padding: 15px;
+            text-align: center;
+        }
+    
+        .Sobre-mim button{
+            margin-top: 50px;
+            text-align: center;
+        }
+    
+    
+    }
+    
+    /*================Serviços================*/
+    
+    .Container{
+        width: 100%;
+        background-color: #b6c0df;
+        padding: 50px;
+        
+    }
+    
+    
+    
+    
+    .Container h1{
+        text-align: center;
+        font-size: 70px;
+        font-family: "Poppins";
+        font-weight: bold;
+        padding-top: 12%;
+    }
+    
+    
+    
+    
+    .Container p{
+        text-align: center;
+        font-family: "Inria Sans";
+        color: #685B5B;
+        margin-top: 25px;
+        
+    } 
+    
+    
+    .C-card{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    .Card{
+        background-color: #e1e6f5;
+        padding: 50px;
+        box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+        
+    }
+    
+    .Card img{
+        width: 75px;
+        height: auto;
+    }
+    
+    .C-card-2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .Card h3{
+        font-size: 20px;
+        font-family: "Inria Sans";
+        font-weight: 700;
+    }
+    .Card h4{
+        font-family: "Inria Sans";
+        font-weight: lighter;
+        color: #BEB7B7;
+        margin-top: 15px;
+    }
+    
+    .Card:hover{
+        transform: scale(1.1);
+        transition-duration: .9s;
+    }
+    
+    
+    @media only screen and (max-width: 414px){
+    
+        /*===============Serviços================*/
+    
+        .Card{
+            margin-top: 35px;
+        }
+    
+        .C-card-2{
+            margin-top: 35px;
+        }
+    
+    
+    
+    }
+    /*===============Projetos================*/
+    
+    .C-projetos{
+        width: 100%;
+        background-color: #fff;
+        padding: 85px;
+    }
+    
+    .C-projetos h1{
+        text-align: center;
+        font-size: 65px;
+        font-family: "Inria Sans";
+        font-weight: bold;
+        padding-top: 14%;
+    }
+    
+    .C-projetos p{
+         text-align: center;
+         font-family: "Inria Sans";
+         color: #685B5B;
+         font-weight: lighter;
+         margin-top: 8px;
+    }
+    
+    .img-projetos{
+       display: flex;
+       justify-content: center;
+       gap: 70px;
+       margin-top: 150px;
+       flex-wrap: wrap;
+    }
+    
+    .img-projetos img{
+        width: 450px;
+        height: auto;
+        box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+        border-radius: 10px;
+    }
+    
+    .img-2 img{
+        width: 450px;
+        height: auto;
+        margin-left: 32%;
+        margin-top: 35px;
+        box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+        border-radius: 10px;
+    } 
+    
+    
+    .C-projetos img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        transition-duration: 0.9s;
+        border: solid 2px #180127;
+        border-radius: 10px;
+    }
+    
+    @media only screen and (max-width: 414px){
+    
+        
+        .img-projetos img{
+            width: 300px;
+            height: auto;
+           
+        }
+    
+        .img-2 img{
+            width: 300px;
+            height: auto;
+            margin-left: -28px;
+            margin-top: 50px;
+           
+        }
+    }
+    
+    /*===============Rodapé================*/
+    
+    .C-rodapé{
+        width: 100%;
+        background-color: #383535;
+        padding: 50px;
+    }
+    
+    .C-rodapé h1{
+        text-align: center;
+        color: #fff;
+        font-family: "Inria Sans";
+        font-weight: lighter;
+    }
+    
+    .C-rodapé form input:first-child{
+       display: inline-block;
+       width: 100%;
+       padding: 14px 50px 14px 15px;
+       border-radius: 30px;
+       outline: none;
+       border: none;
+       margin-top: 25px;
+    }
+    
+    .C-rodapé form input:last-child{
+        position: absolute;
+        display: inline-block;
+        outline: none;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        background-color: #3329c2;
+        color: #fff;
+        box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+        right: 100px;
+        margin-top: 28px;
+        width: 150px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .C-rodapé form input:last-child:hover{
+        transform: scale(1.1);
+        transition-duration: 0.9s;
+    }
+    
+    @media only screen and (max-width: 414px){
+    
+        .C-rodapé form input:last-child{
+            width: 100px;
+            
+        }
+    
+    }
+    
+    /*========Botão Voltar SBR+===========*/
+
+    .B-Voltar button{
+        background-color: #0804ef;
+        margin-left: 7px;
+        margin-top: 15px;
+        padding: 10px 30px;
+        border: none;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+        transition-duration: .9s;
+    
+    }
+    
+    .B-Voltar button:hover{
+        color: #033b5c;
+        transform: translate(0.9);
+        transition: 0.8s;
+        background: transparent;
+
+    }
+
+/*=======Título h1=======*/
+
+    .Currículo h1{
+        text-align: center;
+        font-size: 55px;
+        font-family: "Poppins";
+        font-weight: bold;
+        color: rgb(4, 40, 87);
+    }
+
+/*=======LINKEDIN=======*/
+
+    .Lnkd button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    transition-duration: .9s;
+
+}
+
+/*========BotãoVoltar========*/
+
+.B-Voltar button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+
+}
+
+/*========BotãoVermais=========*/
+
+.B-Vermais button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+    transition-duration: .9s;
+}
+
+.B-Vermais button:hover{
+    color: #012f49;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+    
+/*==========BotãoVerMais2==========*/
+
+.B-VerMais2 button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+
+}
+
+.B-VerMais2:hover{
+    color: #012f49;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*=========BotãoVerMais3==========*/
+
+.B-VerMais3 button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.B-VerMais3:hover{
+    color: #012f49;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*=========BotãoVerMais4===========*/
+
+.B-VerMais4 button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.B-VerMais4 button:hover{
+    color: #012f49;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*============BotãoVerMais5============*/
+
+.B-VerMais5 button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+.B-VerMais5:hover{
+    color: #012f49;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*=============BotãoVerMais6==========*/
+
+.B-VerMais6 button{
+    background-color: #1b85ff;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.B-VerMais6:hover{
+    color: #012f49;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*==========BotãoVoltar2 PAG CH============*/
+
+.B-Back button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.B-Back button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*===========BotãoVoltar3 PAG LING=============*/
+
+.Back-B1 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Back-B1 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*===========BotãoVoltar4 PAG PROJ=============*/
+
+.Back-B2 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Back-B2 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*===========BotãoVoltar5 PAG CN=============*/
+
+.Back-B3 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585; 
+}
+
+.Back-B3 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*===========BotãoVoltar6 PAG MAT=============*/
+
+.Back-B4 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585; 
+}
+
+.Back-B4 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*===========BotãoVoltar7 PAG TI=============*/
+
+.Back-B5 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Back-B5 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*===========BotãoVoltar8 PAG PROJETOS TI PLUS=============*/
+
+.Back-B6 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Back-B6 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*==============BotãoVoltar9 PAG TECNOLOGICA===============*/
+
+.Back-B7 button{
+    background-color: #0804ef;
+    margin-left: 12px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Back-B7 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+/*============Título-Principal==============*/
+
+.título-principal h1{
+    letter-spacing: 3px;
+    font-family: "Poppins";
+    font-size: 80px;
+    width: 1000px;
+    padding: 15px;
+    margin-left: 95px;
+    color: #0044fe;
+    }
+
+.título-principal h1:hover{
+    color: #59d8ff;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent
+}
+.título-principal h2{
+    font-family: "Poppins";
+    margin-left: 25px;
+    padding: -45px;
+    color: #03278a;
+}
+
+/*==============Slider CH===========*/
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slider input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+/*tamanho padrão das imagens, de cada uma separadamente*/
+.slide img{ 
+    width: 800px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid rgb(29, 30, 77);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: rgb(162, 185, 247);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: rgb(123, 177, 247);
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #fff;
+}
+
+/*=============fim slider (mid sucesso)==============*/
+
+/*===========CH PAG=============*/
+
+.Legenda h1{
+    color: rgb(15, 33, 73);
+    font-size: 20px;
+    font-family: "Poppins";
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.Legenda mark{
+    background-color: #aa6c6c;
+}
+
+/*=========LING PAG===========*/
+
+.título h1{
+    margin-left: -220px;
+    margin-top: -20px;
+    font-size: 57px;
+}
+
+.título h2{
+    margin-left: -220px;
+    font-size: 30px;
+}
+
+.LegendaLING h1{
+    margin-left: 28px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: "Poppins";
+    color: #134796;
+}
+
+.LegendaLING mark{
+    background-color: #635846;
+}
+/*=========SLIDER LING PAG===========*/
+
+.slider{
+    margin-left: 25px;
+}
+
+/*===========PROJ PAG============*/
+
+.título-ling h1{
+    margin-top: -15px;
+    margin-left: -220px;
+    font-size: 57px;
+}
+
+.título-ling h2{
+    margin-left: -220px;
+    font-size: 20px;
+}
+
+.Legenda-proj h1{
+    margin-left: 25px;
+    font-family: "Poppins";
+    font-size: 23px;
+    margin-top: 15px;
+    color: #134796;
+}
+
+.Legenda-proj mark{
+    background-color: #8aacdf;
+}
+
+/*=========CN PAG===========*/
+
+.título-cn h1{
+    margin-top: -15px;
+    margin-left: -220px;
+    font-size: 57px;
+}
+
+.título-cn h2{
+    margin-left: -220px;
+    font-size: 20px;
+}
+
+.Legenda-cn h1{
+    color: #134796;
+    margin-left: 25px;
+    font-family: "Poppins";
+    font-size: 23px;
+}
+
+.Legenda-cn mark{
+    background-color: #66816c;
+}
+
+/*=========MAT PAG===========*/
+
+.título-mat h1{
+    margin-top: -15px;
+    margin-left: -220px;
+    font-size: 55px;
+}
+
+.título-mat h2{
+    margin-left: -220px;
+    font-size: 20px;
+}
+
+.Legenda-mat h1{
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: "Poppins";
+    color: #134796;
+}
+
+.Legenda-mat mark{
+    background-color: #60a0ff;
+}
+
+.Legenda-mat h2{
+    font-size: 23px;
+    font-family: "Poppins";
+    color: #041d44;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+/*==========TI PAG==========*/
+
+.título-ti h1{
+    margin-left: -235px;
+    margin-top: 15px;
+    font-size: 55px;
+}
+
+.título-ti h2{
+    margin-left: -227px;
+    font-size: 23px;
+}
+
+.Legenda-ti h1{
+    margin-left: 147px;
+    margin-top: 25px;
+    color: #4643ec;
+    font-family: "Poppins";
+    font-size: 30px;
+}
+
+.pdf-btn{
+    margin-left: 150px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #0b6cfd;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 15px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Legenda-SCRATCH h1{
+    margin-left: 150px;
+    margin-top: 17px;
+    font-size: 22px;
+    font-family: "Poppins";
+    color: #134796;
+}
+
+.Legenda-SCRATCH mark{
+    background-color: #aac9f7;
+}
+
+.Legenda-ti2{
+    margin-left: 150px;
+    margin-top: 35px;
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #4643ec;
+}
+
+.Cisco-img{
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+/*=========PAG TEC==========*/
+
+.Back-B8 button{
+    background-color: #0044fe;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+
+.Back-B8 button:hover{
+    color: #033b5c;
+    transform: translate(0.9);
+    transition: 0.8s;
+    background: transparent;
+}
+
+.Título-PTec{
+    margin-top: 30px;
+    margin-left: 135px;
+    font-size: 25px;
+    font-family: "Poppins";
+    color: #134796;
+}
+
+.RA-img{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.Conteúdo-RA{
+    margin-left: 110px;
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: "Poppins";
+    color: #1e4a8b;
+}
+
+.RA-img2{
+    margin-left: 1100px;
+    margin-top: -463px;
+}
+
+.Conteúdo-RA2{
+    margin-left: 1100px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: "Poppins";
+    color: #1e4a8b;
+}
+
+.Título-PTEC2{
+    font-size: 22px;
+    font-family: "Poppins";
+    color: #134796;
+    margin-left: 1130px;
+    margin-top: -570px;
+}
+
+.Título1{
+    font-size: 20px;
+    font-family: "Poppins";
+    color: #134796;
+    margin-left: 150px;
+}
+
+.Título2{
+    font-size: 20px;
+    font-family: "Poppins";
+    color: #134796;
+    margin-left: 1100px;
+    margin-top: -300px;
+}
+
+.Título3{
+    font-size: 20px;
+    font-family: "Poppins";
+    color: #134796;
+    margin-top: 350px;
+    margin-left: 735px;
+}
+
+.Legenda-TT{
+    font-size: 13px;
+    font-family: "Poppins";
+    color: #6684d6;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.Legenda-TT2{
+    font-size: 13px;
+    font-family: "Poppins";
+    color: #6684d6;
+    margin-left: 1100px;
+    margin-top: 15px;
+}
+
+.Legenda-TT3{
+    font-size: 13px;
+    font-family: "Poppins";
+    color: #6684d6;
+    margin-top: 15px;
+    margin-left: 430px;
+}
+
+.imgproj{
+    margin-top: -550px;
+    margin-left: 570px;
+}
